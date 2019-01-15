@@ -41,18 +41,35 @@ li a:hover {
   background-repeat: no-repeat;
   background-size: cover;
 }    
-        html {
-  scroll-behavior: smooth;
+        p 
+        {
+ animation-duration: 3s;
+ animation-name: slidein;
+ animation-iteration-count: infinite;
+ animation-direction: alternate;
+position: absolute;
+  bottom: 50px;
+    
+        text-align: center;
+        font-size: 50px;
+  font-family: 'Bebas';
+        color:blue
+        
 }
 
-#Learn More {
-  height: 600px;
-  background-color: pink;
-}
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+      margin-bottom: 10%;
+    width: 300%; 
+  }
 
-#section2 {
-  height: 600px;
-  background-color: yellow;
+  to {
+    margin-left: 0%;
+      
+    width: 100%;
+      
+  }
 }
 </style>
     
@@ -111,7 +128,9 @@ li a:hover {
         <div class= "farme">
         <iframe width="560" height="315" src="https://www.youtube.com/embed/5w7xuBOC5YY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
             </iframe>
-            
+            <p>
+                Apply Now! 
+            </p>
         
         </div>
         
