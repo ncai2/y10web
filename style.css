@@ -31,6 +31,7 @@ body{
   position: relative;
   overflow: hidden;
   box-shadow: 0 0 10px #00000070;
+   color: 80E372;
 }
 .table h2{
   text-transform: uppercase;
@@ -62,6 +63,7 @@ body{
   text-transform: uppercase;
   font-size: 14px;
   transition: 0.5s linear;
+   color: 80E372;
 }
 .table a:hover{
   background: #2c3e50;
