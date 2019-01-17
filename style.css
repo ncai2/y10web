@@ -67,7 +67,7 @@ body{
 }
 .pop{
   background: #2c3e50;
-  color: #fff;
+  color: palegreen;
   transform: rotate(45deg);
   padding: 10px 40px;
   position: absolute;
