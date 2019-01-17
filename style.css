@@ -5,6 +5,14 @@ body{
   background-size: cover;
   background-attachment: fixed;
 }
+.logo img
+{
+    width: 150px;
+    height: auto;
+    float: left;
+    position: absolute;
+    top: 0%;
+    left:0%;
 
 .pricing-table{
   max-width: 1200px;
